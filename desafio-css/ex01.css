@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.pikachu{
+    padding: 16px;
+    border: 2px dashed rgb(255, 207, 35);
+}
+
+.meowth{
+    padding: 16px;
+    border: 2px dashed rgb(255, 207, 0);
+}
+
+.psyduck{
+    padding: 16px;
+    border: 2px dashed rgb(243, 207, 0);
+}
