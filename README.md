@@ -1,1 +1,0 @@
-# Desafio-CSS-Treinamento-Pok-mon
