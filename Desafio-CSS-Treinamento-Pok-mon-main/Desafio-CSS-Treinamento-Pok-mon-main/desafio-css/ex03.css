@@ -1,0 +1,26 @@
+.box {
+height: 300px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+flex-wrap: nпоwгар;
+gap: 16px;
+}
+
+
+
+.leafeon{
+    padding: 16px;
+    border: 2px dashed rgb(120, 212, 169);
+}
+
+.vulpix-alola{
+    padding: 16px;
+    border: 2px dashed rgb(154, 240, 255);
+}
+
+.jigglypuff{
+    padding: 16px;
+    border: 2px dashed rgb(247, 189, 255);
+}
