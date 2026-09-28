@@ -1,0 +1,29 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.gengar {
+    align-self: flex-end;
+    height: 2px;
+}
+
+
+.gengar{
+    padding: 16px;
+    border: 2px dashed rgb(144, 48, 163);
+}
+
+.Alakazam{
+    padding: 16px;
+    border: 2px dashed rgb(241, 219, 92);
+}
+
+.Haunter{
+    padding: 16px;
+    border: 2px dashed rgb(129, 48, 129);
+}

@@ -1,0 +1,36 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.Snorlax {
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+}
+
+.Diglett {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.Zubat {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.Snorlax{
+    padding: 12px;
+    border: 2px dashed rgb(129, 48, 129);
+}
+
+.Diglett{
+    padding: 10px;
+    border: 2px dashed rgb(144, 48, 163);
+}
+
+.Zubat{
+    padding: 10px;
+    border: 2px dashed rgb(144, 48, 163);
+}
