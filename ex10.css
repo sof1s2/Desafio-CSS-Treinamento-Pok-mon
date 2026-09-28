@@ -1,0 +1,38 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.articuno {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.zapdos {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.moltres{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+
+.articuno{
+    padding: 12px;
+    border: 2px dashed rgb(48, 76, 201);
+}
+
+.zapdos{
+    padding: 10px;
+    border: 2px dashed rgb(146, 121, 88);
+}
+
+.moltres{
+    padding: 10px;
+    border: 2px dashed rgb(91, 83, 126);
+}
+

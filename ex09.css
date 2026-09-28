@@ -1,0 +1,55 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 16px;
+}
+
+.sentret {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.ledyba {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.hoothoot {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.spinarak {
+    grid-column: 7 / 8;
+    grid-row: 1 / 2;
+}
+
+.sentret, .ledyba {
+    justify-self: center
+}
+
+.hoothoot, .spinarak {
+    justify-self: end;
+}
+
+
+.sentret{
+    padding: 12px;
+    border: 2px dashed rgb(48, 76, 201);
+}
+
+.ledyba{
+    padding: 10px;
+    border: 2px dashed rgb(146, 121, 88);
+}
+
+.hoothoot{
+    padding: 10px;
+    border: 2px dashed rgb(91, 83, 126);
+}
+
+.spinarak{
+    padding: 10px;
+    border: 2px dashed rgb(90, 65, 148);
+}

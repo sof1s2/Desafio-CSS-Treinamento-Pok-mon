@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.machop{
+    padding: 12px;
+    border: 2px dashed rgb(128, 156, 189);
+}
+
+.geodude{
+    padding: 16px;
+    border: 2px dashed rgb(172, 159, 148);
+}
+
+.onix{
+    padding: 16px;
+    border: 2px dashed rgb(117, 114, 104);
+}

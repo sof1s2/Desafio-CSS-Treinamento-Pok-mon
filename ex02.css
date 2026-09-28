@@ -1,0 +1,23 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.charmander{
+    padding: 16px;
+    border: 2px dashed rgb(250, 176, 65);
+}
+
+.squirtle{
+    padding: 16px;
+    border: 2px dashed rgb(108, 217, 250);
+}
+
+.bulbasaur{
+    padding: 16px;
+    border: 2px dashed rgb(115, 221, 151);
+}
